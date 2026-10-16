@@ -1,0 +1,117 @@
+{
+  "opening": {
+    "source": "01_Portraits/FAV_64b6fd304t2406f0271e32f085503467.JPG",
+    "width": 1200,
+    "height": 1800
+  },
+  "movement": {
+    "source": "01_Portraits/FAV_DSCF0231.JPG",
+    "width": 1800,
+    "height": 1200
+  },
+  "companion": {
+    "source": "02_Pets/FAV_DSCF2080.JPG",
+    "width": 1200,
+    "height": 1800
+  },
+  "light": {
+    "source": "01_Portraits/FAV_DSCF2319.JPG",
+    "width": 1200,
+    "height": 1800
+  },
+  "pause": {
+    "source": "01_Portraits/FAV_DSCF2180.JPG",
+    "width": 1200,
+    "height": 1800
+  },
+  "sky": {
+    "source": "01_Portraits/FAV_R0001163.JPG",
+    "width": 1200,
+    "height": 1800
+  },
+  "together": {
+    "source": "dist/assets/IMG_6332.jpg",
+    "width": 1199,
+    "height": 1800
+  },
+  "paws": {
+    "source": "02_Pets/FAV_DSCF1579.JPG",
+    "width": 1800,
+    "height": 1200
+  },
+  "mezze": {
+    "source": "04_Brand_and_Lifestyle/FAV_DSCF1667.JPG",
+    "width": 1200,
+    "height": 1800
+  },
+  "rest": {
+    "source": "02_Pets/FAV_DSCF2093.JPG",
+    "width": 1800,
+    "height": 1200
+  },
+  "yui": {
+    "source": "05_About_Yui/IMG_3268.PNG",
+    "width": 1123,
+    "height": 1800
+  },
+  "bts": {
+    "source": "03_Events/BTS/FAV_DSCF1163.JPG",
+    "width": 1288,
+    "height": 1800
+  },
+  "seaside": {
+    "source": "01_Portraits/R0008186.JPG",
+    "width": 1200,
+    "height": 1800
+  },
+  "garden-cat": {
+    "source": "02_Pets/FAV_DSCF0744.JPG",
+    "width": 1200,
+    "height": 1800
+  },
+  "tree": {
+    "source": "01_Portraits/FAV_R0008105.JPG",
+    "width": 1200,
+    "height": 1800
+  },
+  "yui-street": {
+    "source": "05_About_Yui/dclassic 2025-01-27 232754.633.JPG",
+    "width": 1200,
+    "height": 1800
+  },
+  "yui-cat": {
+    "source": "05_About_Yui/WhatsApp Image 2025-10-17 at 18.52.24.jpeg",
+    "width": 994,
+    "height": 1392
+  },
+  "flow": {
+    "source": "01_Portraits/R0002362.JPG",
+    "width": 1333,
+    "height": 2000
+  },
+  "journey-cover": {
+    "source": "06_Stories/finding my way back .JPG",
+    "width": 1776,
+    "height": 1184
+  },
+  "yui-drawing": {
+    "source": "05_About_Yui/R0005242.jpg",
+    "width": 1400,
+    "height": 1486
+  },
+  "yui-blue": {
+    "source": "05_About_Yui/IMG_9036.JPG",
+    "width": 1200,
+    "height": 1600
+  },
+  "yui-camera": {
+    "source": "05_About_Yui/DSCF8673.JPG",
+    "width": 1067,
+    "height": 1600
+  },
+  "yui-bus": {
+    "source": "05_About_Yui/IMG_9357.JPG",
+    "width": 1067,
+    "height": 1600
+  }
+}
