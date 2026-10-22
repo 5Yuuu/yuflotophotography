@@ -64,7 +64,7 @@ body #app :is(h1,h2,h3),body #app :is(h1,h2,h3) *{font-family:Georgia,'Times New
 /* Phone navigation: fixed masthead with a compact dropdown panel. */
 .menu-lines{display:none}
 @media(max-width:600px){
- body header,body.home-page header{height:64px;min-height:64px;padding:10px 6vw;flex-wrap:nowrap;gap:16px;position:sticky;top:0;z-index:100;background:var(--paper)}
+ body header,body.home-page header{height:64px;min-height:64px;padding:10px 6vw;flex-wrap:nowrap;gap:16px;position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--line)}
  body.home-page header{background:#f6f2e8}
  header .brand-logo{width:145px;position:relative;z-index:102}
  header .menu{display:flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;padding:0;margin-right:-10px;border:0;border-radius:0;color:var(--ink);position:relative;z-index:102;background:transparent;-webkit-tap-highlight-color:transparent}
