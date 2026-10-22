@@ -108,3 +108,9 @@ body #app :is(h1,h2,h3),body #app :is(h1,h2,h3) *{font-family:Georgia,'Times New
  .pricing-support{padding-top:0}
  .pricing-services + .section{padding-top:44px}
 }
+
+/* Keep desktop illustrations aligned with the heading and their captions. */
+@media(min-width:801px){.illustration-track img{object-position:left top}}
+
+/* Let mobile captions follow the complete artwork without a fixed-height gap. */
+@media(max-width:600px){.illustration-track img{display:block;width:auto;max-width:100%;height:min(330px,71.62vw);object-fit:contain;object-position:left center}.illustration-track figcaption{margin-top:8px}}
