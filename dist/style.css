@@ -60,3 +60,26 @@ body #app :is(h1,h2,h3),body #app :is(h1,h2,h3) *{font-family:Georgia,'Times New
 }
 
 @media(max-width:600px){.reference-biography p{font-size:14px}}
+
+/* Phone navigation: fixed masthead with a compact dropdown panel. */
+.menu-lines{display:none}
+@media(max-width:600px){
+ body header,body.home-page header{height:64px;min-height:64px;padding:10px 6vw;flex-wrap:nowrap;gap:16px;position:sticky;top:0;z-index:100;background:var(--paper)}
+ body.home-page header{background:#f6f2e8}
+ header .brand-logo{width:145px;position:relative;z-index:102}
+ header .menu{display:flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;padding:0;margin-right:-10px;border:0;border-radius:0;color:var(--ink);position:relative;z-index:102;background:transparent;-webkit-tap-highlight-color:transparent}
+ .menu-label{display:none}
+ .menu-lines{display:block;position:relative;width:20px;height:16px}
+ .menu-lines>span{position:absolute;left:0;top:5px;width:20px;height:1.5px;background:currentColor;transition:transform .25s ease,top .25s ease}
+ .menu-lines>span:last-child{top:11px}
+ .menu[aria-expanded=true] .menu-lines>span{top:8px;transform:rotate(45deg)}
+ .menu[aria-expanded=true] .menu-lines>span:last-child{transform:rotate(-45deg)}
+ header #navigation{display:flex;position:absolute;inset:64px 0 auto;z-index:101;width:100%;height:auto;max-height:calc(100dvh - 64px);padding:10px 6vw 18px;flex-direction:column;align-items:flex-start;flex-wrap:nowrap;justify-content:flex-start;gap:0;background:var(--paper);border-bottom:1px solid var(--line);overflow-y:auto;overscroll-behavior:contain;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-8px);transition:opacity .25s ease,transform .25s ease,visibility .25s}
+ .home-page header #navigation{background:#f6f2e8}
+ header #navigation.open{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}
+ header #navigation a{display:block;padding:12px 0;border:0;font-size:14px;font-weight:400;line-height:1.4;letter-spacing:normal}
+ header #navigation a[aria-current=page]{color:var(--muted)}
+ body.nav-open{overflow:visible}
+ body.nav-open header{position:sticky;top:0}
+}
+@media(prefers-reduced-motion:reduce){.menu-lines>span,header #navigation{transition:none!important}}
