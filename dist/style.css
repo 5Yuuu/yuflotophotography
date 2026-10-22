@@ -55,8 +55,8 @@ body #app :is(h1,h2,h3),body #app :is(h1,h2,h3) *{font-family:Georgia,'Times New
  .home-scattered .home-lead,.home-opening-note,.home-introduction .home-text p:not(.eyebrow),.home-opening-main .home-button,.home-introduction .text-link{font-size:14px;line-height:1.8}
  .menu{color:var(--ink);-webkit-text-fill-color:var(--ink)}
  footer .footer-links{gap:8px}
- .contact-mobile-heading{padding-bottom:34px}
- .contact-mobile-heading + .section{padding-top:45px}
+ .contact-mobile-heading{padding-bottom:12px}
+ .contact-mobile-heading + .section{padding-top:24px}
 }
 
 @media(max-width:600px){.reference-biography p{font-size:14px}}
@@ -83,3 +83,28 @@ body #app :is(h1,h2,h3),body #app :is(h1,h2,h3) *{font-family:Georgia,'Times New
  body.nav-open header{position:sticky;top:0}
 }
 @media(prefers-reduced-motion:reduce){.menu-lines>span,header #navigation{transition:none!important}}
+
+/* Slightly smaller desktop wordmark; phone branding keeps its approved size. */
+@media(min-width:801px){header .brand-logo{width:185px}}
+
+.mobile-sentence-space{display:none}@media(max-width:600px){.mobile-sentence-space{display:inline}}
+
+/* Bring the desktop contact introduction closer to its title. */
+@media(min-width:601px){.contact-mobile-heading{padding-bottom:24px}.contact-mobile-heading + .section{padding-top:55px}}
+
+/* FAQ questions follow the same reading size as pricing body copy. */
+.faq summary{font-size:16px;line-height:1.7;font-weight:400}
+
+/* Align the text-only events offer and avoid stacked bottom paddings. */
+.pricing-services{padding-bottom:48px}
+.pricing-events{padding-bottom:0}
+.pricing-events .split{align-items:start}
+.pricing-support{padding-top:48px}
+.pricing-support>:last-child{margin-bottom:0}
+.pricing-services + .section{padding-top:64px}
+@media(max-width:800px){
+ .pricing-services{padding-bottom:32px}
+ .pricing-events .split{gap:28px}
+ .pricing-support{padding-top:0}
+ .pricing-services + .section{padding-top:44px}
+}
