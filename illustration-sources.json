@@ -10,6 +10,10 @@
       "illustration-love.jpg"
     ],
     [
+      "Another way of seeing",
+      "illustration-perspective.jpg"
+    ],
+    [
       "A quiet green",
       "illustration-quiet.jpg"
     ],
@@ -20,6 +24,13 @@
     [
       "Through the green",
       "illustration-forest.jpg"
+    ],
+    [
+      "A Witch’s Feast",
+      "illustration-witch-feast.jpg"
     ]
-  ]
+  ],
+  "local_sources": {
+    "illustration-witch-feast.jpg": "05_About_Yui/魔女的盛宴.JPG"
+  }
 }
