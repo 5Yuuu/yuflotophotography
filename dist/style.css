@@ -114,3 +114,8 @@ body #app :is(h1,h2,h3),body #app :is(h1,h2,h3) *{font-family:Georgia,'Times New
 
 /* Let mobile captions follow the complete artwork without a fixed-height gap. */
 @media(max-width:600px){.illustration-track img{display:block;width:auto;max-width:100%;height:min(330px,71.62vw);object-fit:contain;object-position:left center}.illustration-track figcaption{margin-top:8px}}
+
+.blog-journal img[src="/assets/after-still-water-cover.jpg"]{object-fit:contain}
+
+
+.project-introduction>p.project-location{font-size:12px}
